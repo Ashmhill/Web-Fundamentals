@@ -1,20 +1,20 @@
 nav {
-    background-color: pink;
+    background-color: lightblue;
     font-size: 1.3em;
     text-align: center;
     padding: 1%;
 }
 nav a:hover{
-    color: salmon;
+    color: powderblue;
     background-color: white;
 }
 nav a{
     margin: 6% 1%;
-    color: palevioletred;
+    color: cornflowerblue;
 }
 body {
-    background-color: palevioletred;
-    color: pink;
+    background-color: cornflowerblue;
+    color: lightblue;
 }
 img {
     margin: 2% 3%;
