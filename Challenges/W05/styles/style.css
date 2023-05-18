@@ -1,0 +1,12 @@
+.circlesbox .circle{
+    border: 10px solid black;
+    width:15%;
+    border-radius: 50%;
+    margin:2% 8%;
+}
+body{
+    background-color: gray;
+}
+.title #title-img{
+    width: 100%;
+}
