@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,8 @@ nav a {
     color:#144267;
     background-color: #79c5d8;
     text-decoration: none;
+    font-family: montserrat;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -16,12 +21,16 @@ nav a {
 }
 main section {
     text-align: center;
+    color:#144267;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #79c5d8;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #fce16a;
@@ -29,53 +38,98 @@ header {
 nav a:hover {
     background-color: #ffffff;
     color:#144267;
+    font-family: montserrat;
 }
 .book, .join {
     background-color: #fce16a;
     color:#144267;
     text-decoration: none;
+    font-family: montserrat;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #ffffff;
     color:#144267;
+    font-family: montserrat;
 }
 #background {
     background-color: #fce16a;
 }
 .msg {
     background-color: #79c5d8;
+    padding: 35px;
 }
 footer {
     background-color: #fce16a;
     color:#144267;
+    padding: 25px 50px;
+    margin-top: 50px;
 }
 .home-title {
     color:#ffffff;
+    font-family: Roboto Slab;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color:#ffffff;
+    font-family: Roboto Slab;
 }
 .msg p {
     color:#ffffff;
+    font-family: montserrat;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 h4 {
     color:#ffffff;
+    font-family: montserrat;
 }
 footer a {
     color:#144267;
     background-color:#79c5d8;
     text-decoration: none;
+    font-family: montserrat;
 }
 footer a:hover {
     color:#144267;
     background-color:#ffffff;
+    font-family: montserrat;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 footer p {
     font-size: 1.2em;
+    font-family: montserrat;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-grid{
+    font-family: Roboto Slab;
+}
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+    background-color: #fce16a;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+    font-family: Roboto Slab;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
