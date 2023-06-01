@@ -13,8 +13,8 @@
 }
 nav a {
     text-align: center;
-    color:#144267;
-    background-color: #fce16a;
+    color:#fce16a;
+    background-color: #144267;
     text-decoration: none;
     font-family: montserrat;
     padding: 35px;
@@ -27,22 +27,22 @@ nav a {
 }
 main section {
     text-align: center;
-    color:#79c5d8;
+    color:#144267;
 }
 #background {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
-    background-color: #79c5d8;
+    background-color: #ffffff;
 }
 body {
-    background-color: #144267;
+    background-color: #fce16a;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: #fce16a;
+    background-color: #144267;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -52,8 +52,8 @@ nav a:hover {
     font-family: montserrat;
 }
 .book, .join {
-    background-color: #fce16a;
-    color:#144267;
+    background-color: #144267;
+    color:#ffffff;
     text-decoration: none;
     font-family: montserrat;
     font-size: 18px;
@@ -62,17 +62,17 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #79c5d8;
-    color:#ffffff;
+    background-color: #ffffff;
+    color:#144267;
     font-family: montserrat;
 }
 .msg {
-    background-color: #ffffff;
+    background-color: #79c5d8;
     padding: 35px;
 }
 footer {
-    background-color: #fce16a;
-    color:#144267;
+    background-color: #79c5d8;
+    color:#ffffff;
     padding: 25px 50px;
     margin-top: 50px;
     display: flex;
@@ -86,34 +86,33 @@ footer {
     margin-top: 10px;
 }
 .msg h2 {
-    color:#144267;
+    color:#fce16a;
     font-family: Roboto Slab;
 }
 .msg p {
-    color:#144267;
+    color:#fce16a;
     font-family: montserrat;
     font-size: .8em;
     padding-bottom: 15px;
 }
 h4 {
-    color:#ffffff;
+    color: #144267;
     font-family: montserrat;
 }
 footer a {
-    color:#144267;
-    background-color:#fce16a;
+    color:#ffffff;
+    background-color:#79c5d8;
     text-decoration: none;
     font-family: montserrat;
 }
 footer a:hover {
-    color:#ffffff;
-    background-color:#79c5d8;
+    color: #fce16a;
+    background-color: #144267;
     font-family: montserrat;
 }
 .icon {
     width: 80px;
     padding-top: 10px;
-    color: #ffffff;
 }
 footer p {
     font-size: 1.2em;
@@ -137,14 +136,13 @@ h2 {
 }
 footer .social img{
     padding-top: 15px;
-    background-color: #fce16a;
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     font-family: Roboto Slab;
 }
 .card-img{
-    border: 10px solid #fce16a;
+    border: 10px solid #ffffff;
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
 }
@@ -166,7 +164,7 @@ nav {
     z-index: -1;
 }
 #hero-msg h4 {
-    color: white;
+    color: #fce16a;
 }
 #hero-msg {
     grid-column: 2/3;
